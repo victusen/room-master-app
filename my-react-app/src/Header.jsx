@@ -10,8 +10,8 @@ function Header() {
         <a className='max-md:hidden' href="/"><img src={ logo } alt="logo" /></a> 
       </div>
       <div className="flex justify-center items-center ">
-        <a className='max-md:hidden' href="/"><img src={ logo } alt="logo" /></a> 
-        <nav className='max-xl:hidden'>
+        <a className='block md:hidden' href="/"><img src={ logo } alt="logo" /></a> 
+        <nav className='max-md:hidden'>
           <ul className='flex gap-6 text-white' >
             <li><a id='a' href="#home">home</a></li>
             <li><a id='a' href="#shop">shop</a></li>
