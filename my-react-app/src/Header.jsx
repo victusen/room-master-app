@@ -11,7 +11,7 @@ function Header() {
           <a className='self-center' href="/"><img src={ logo } alt="logo" /></a> 
         </div>
       </div>
-      <div className="flex items-center ">
+      <div className="flex items-center max-md:hidden ">
         <nav className='max-md:hidden'>
           <ul className='flex gap-6 text-white' >
             <li><a id='a' href="#home">home</a></li>
