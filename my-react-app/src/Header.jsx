@@ -8,7 +8,7 @@ function Header() {
       <div className="max-md:w-full flex items-center justify-between ">
         <img className='md:hidden' src={ hamburger } />
         <div className='flex max-xl:justify-center items-center w-full'>
-          <a className='' href="/"><img src={ logo } alt="logo" /></a> 
+          <a className='self-center' href="/"><img src={ logo } alt="logo" /></a> 
         </div>
       </div>
       <div className="flex items-center ">
