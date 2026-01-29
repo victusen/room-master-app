@@ -7,7 +7,7 @@ function Header() {
     <header className='max-md:px-10 flex absolute z-10 top-0 left-0 right-0 w-full px-20 h-30 gap-20 md:bg-transparent items-center'>
       <div className="max-md:w-full flex items-center justify-between ">
         <img className='md:hidden' src={ hamburger } />
-        <a href="/"><img className='' src={ logo } alt="logo" /></a> 
+        <a className='max-md:hidden' href="/"><img src={ logo } alt="logo" /></a> 
       </div>
       <div className="flex justify-center items-center ">
         <img className='block xl:hidden' src={ logo } alt="logo" />
