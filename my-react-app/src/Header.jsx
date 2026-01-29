@@ -10,7 +10,7 @@ function Header() {
         <a href="/"><img className='' src={ logo } alt="logo" /></a> 
       </div>
       <div className="flex justify-center items-center ">
-        <img className='xl:hidden' src={ logo } alt="logo" />
+        <img className='block xl:hidden' src={ logo } alt="logo" />
         <nav className='max-xl:hidden'>
           <ul className='flex gap-6 text-white' >
             <li><a id='a' href="#home">home</a></li>
