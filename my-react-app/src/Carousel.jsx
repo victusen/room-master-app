@@ -45,7 +45,7 @@ function Carousel() {
         </div>
       </div>
       <div className='flex-1 flex flex-col justify-end'>
-        <div className="max-lg:px-15 max-lg:py-15 lg:p-20 xl:p-20 flex flex-col gap-6 ">
+        <div className="max-lg:px-10 max-lg:py-15 lg:p-20 xl:p-20 flex flex-col gap-6 ">
           <h1 className='carousel-title'>{ carouselTexts[currentIndex].title }</h1>
           <p className='text-gray-500 text-sm'>{ carouselTexts[currentIndex].text }</p>
           <div className='shop-now flex items-center gap-4 cursor-pointer'>
